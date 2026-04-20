@@ -13,7 +13,6 @@ struct ContentView: View {
             Image(systemName: "tv")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, hello!")
         }
         .padding()
     }

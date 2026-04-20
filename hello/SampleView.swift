@@ -2,6 +2,7 @@ import SwiftUI
 
 struct SampleView: View {
     var body: some View {
-        Text("text")
+        Text("text, hello")
+        Text("greetings")
     }
 }
