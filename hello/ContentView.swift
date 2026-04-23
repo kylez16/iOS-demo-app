@@ -9,14 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        HStack {
-            Image(systemName: "tv")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            
-            Text("whats up")
-                .font(.headline)
-                .foregroundColor(.cyan)
+        VStack{
+            HStack {
+                Image(systemName: "tv")
+                    .imageScale(.large)
+                    .foregroundStyle(.tint)
+                
+                Text("whats up")
+                    .font(.headline)
+                    .foregroundColor(.cyan)
+                
+                
+            }
+            SampleView()
         }
         
         .padding()
