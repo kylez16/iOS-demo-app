@@ -13,7 +13,10 @@ struct ContentView: View {
             Image(systemName: "tv")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
+            
+            Text("whats up")
         }
+        
         .padding()
     }
 }
